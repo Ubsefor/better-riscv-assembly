@@ -48,7 +48,7 @@ contexts:
         3: constant.numeric.rvasm
 
     # CSRs
-    - match: \b(mhartid|misa)\b
+    - match: \b(mhartid|misa|mvendorid|marchid|mimpid|mconfigptr|mstatus|medeleg|mideleg|mie|mtvec|mcounteren|mstatush|mscratch|mepc|mcause|mtval|mip|mtinst|mcycle|minstret|sstatus|sie|stvec|scounteren|senvcfg|sscratch|sepc|scause|stval|sip|satp|scontext|cycle|time|timeh|instret|instreth|cycleh)\b
       scope: support.type.rvasm
 
     - include: operators
