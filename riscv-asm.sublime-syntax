@@ -6,7 +6,7 @@ scope: source.rvasm
 contexts:
   main:
     # Comments
-    - match: '(//|#)'
+    - match: '(//)'
       scope: punctuation.definition.comment.rvasm
       push:
         - meta_scope: comment.line.rvasm
